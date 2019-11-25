@@ -7,6 +7,13 @@
     overflow: hidden;
     margin-top: 6vh;
 }
+#autor{
+    grid-column: 12;
+    grid-row: 1;
+    height: 20px;
+    font-family: 'Dancing Script', cursive;
+    z-index: 1;
+}
 
 .cielo {
     grid-column: 1 / 13;
@@ -351,7 +358,7 @@ vertical y horizontalmente para que tenga el efecto de movimiento*/
 @media (max-width:320px) {
     .container {
         margin-top: 8vh;
-    }   
+    }  
     #titulo{
         grid-row: 1 / 2;
         margin-top: 0%;
@@ -364,8 +371,8 @@ vertical y horizontalmente para que tenga el efecto de movimiento*/
     }
     .santa{
         grid-row: 3 / 6;
-    }
-
+    } 
+    
    
     
 }
